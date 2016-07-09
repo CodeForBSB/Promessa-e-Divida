@@ -7,6 +7,13 @@
 
 ### Introdução:
 
+Modelagem Inicial 09/07:
+![ScreenShot](img/01-Diagrama1.png)
+
+- Plataforma para avaliar promessas / metas do governo pelo cidadão
+- Inicialmente focado em Infra-estrutura (como obras, reformas) em andamento
+- Classificação por meio de expectativa / impressão, um "perfil" da promessa que conterá fotos e avaliações de seu processo
+
 ===========
 ### Objetivos:
 
@@ -20,5 +27,3 @@
 - [React Native](https://facebook.github.io/react-native/docs)
 
 ===========
-
-commit teste ibm bluemix
