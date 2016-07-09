@@ -8,6 +8,7 @@
 ### Introdução:
 
 Modelagem Inicial 09/07:
+
 ![ScreenShot](img/01-Diagrama1.png)
 
 - Plataforma para avaliar promessas / metas do governo pelo cidadão
