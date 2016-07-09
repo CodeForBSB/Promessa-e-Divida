@@ -12,7 +12,8 @@
 
 ===========
 
-### Ferramentas:
+### Bibliografia:
 
 - [GitHook IBM](https://hub.jazz.net/gitHook/)
 - [Observatório Social de Brasília](http://brasilia.osbrasil.org.br/)
+- [React Native](https://facebook.github.io/react-native/docs)
