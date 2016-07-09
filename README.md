@@ -15,3 +15,4 @@
 ### Ferramentas:
 
 - [GitHook IBM](https://hub.jazz.net/gitHook/)
+- [Observatório Social de Brasília](http://brasilia.osbrasil.org.br/)
