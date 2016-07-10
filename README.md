@@ -1,4 +1,4 @@
-# Projeto Time 4 Hackathon Cotidiano
+# Projeto Hackathon Cotidiano - Bazinga Team
 ===========
 
 09/07 - 15/07/2016
