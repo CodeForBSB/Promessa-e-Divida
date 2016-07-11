@@ -1,0 +1,234 @@
+[{
+  "_id": "comp_01",
+  "projeto": "Revisão e Implantação do Projeto Orla, do Programa Brasília Competitiva.",
+  "tipo": "Projeto Prioritário",
+  "compromissos": [
+    {
+      "responsavel": "Secretaria de Estado de Infraestrutura e Serviços Públicos",
+      "metas": [
+        {
+          "meta": "Implantação de 15 Km de pista de ciclismo/caminhada na Orla do Lago",
+          "prazo": "30/12/2016"
+        }
+      ]
+    },
+    {
+      "responsavel": "Novacap",
+      "metas": [
+        {
+          "meta": "Contratação e início das obras da Concha Acústica - 2a etapa",
+          "prazo": "31/10/2016"
+        },
+        {
+          "meta": "Conclusão do Calçadão da Ponte das Garças - Deck Sul",
+          "prazo": "31/10/2016"
+        }
+      ]
+    }
+  ]
+},
+
+{
+  "_id": "comp_02",
+  "projeto": "Construção do Túnel de Taguatinga (EIXO OESTE), do Programa Mobilidade Integrada e Sustentável",
+  "tipo": "Projeto Prioritário",
+  "compromissos": [
+    {
+      "responsavel": "Novacap",
+      "metas": [
+        {
+          "meta": "Conclusão dos projetos executivos e início da obra do túnel de Taguatinga",
+          "prazo": "30/12/2016"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": "comp_03",
+  "projeto": "Alargamento do Viaduto da EPTG (EIXO OESTE), do Programa Mobilidade Integrada e Sustentável",
+  "tipo": "Projeto Prioritário",
+  "compromissos": [
+    {
+      "responsavel": "Novacap",
+      "metas": [
+        {
+          "meta": "Publicação do edital de licitação da obra de alargamento do viaduto da EPTG com a entrada do túnel de Taguatinga — até 30/12/2016.",
+          "prazo": "30/12/2016"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": "comp_04",
+  "projeto": "Duplicação e Revitalização da ESPM (EIXO OESTE), do Programa Mobilidade Integrada e Sustentável",
+  "tipo": "Projeto Prioritário",
+  "compromissos": [
+    {
+      "responsavel": "Novacap",
+      "metas": [
+        {
+          "meta": "Publicação do edital de licitação de duplicação e revitalização da Estrada Setor Policial Militar — ESPM",
+          "prazo": "30/12/2016"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": "comp_05",
+  "projeto": "Duplicação e Revitalização da ESPM (EIXO OESTE), do Programa Mobilidade Integrada e Sustentável",
+  "tipo": "Projeto Prioritário",
+  "compromissos": [
+    {
+      "responsavel": "Novacap",
+      "metas": [
+        {
+          "meta": "Contratar e iniciar a duplicação da via de ligação entre Sol Nascente e Hélio Prates",
+          "prazo": "31/12/2016"
+        }
+      ]
+    }
+  ]
+},{
+  "_id": "comp_06",
+  "projeto": "Execução de Infraestrutura Urbana e Construção de Unidades Habitacionais no Sol Nascente, do Programa Infraestrutura e Sustentabilidade Socioambiental.",
+  "tipo": "Projeto Prioritário",
+  "compromissos": [
+    {
+      "responsavel": "CAESB",
+      "metas": [
+        {
+          "meta": "Conclusão da implantação das bacias A e B do Trecho I do Sistema de esgotamento sanitário no Sol Nascente",
+          "prazo": "30/12/2016"
+        }
+      ]
+    },
+	{
+      "responsavel": "Secretaria de Estado de Infraestrutura e Serviços Públicos",
+      "metas": [
+        {
+          "meta": "Conclusão de 30% da obra de ampliação e readequação do sistema de drenagem pluvial e pavimentação no Sol Nascente, trecho 1",
+          "prazo": "30/12/2016"
+        },
+		{
+          "meta": "Conclusão de 30% da obra de ampliação e readequação do sistema de drenagem pluvial e pavimentação no Sol Nascente, trecho 2",
+          "prazo": "30/12/2016"
+        },
+		{
+          "meta": "Conclusão de 15% da obra de ampliação e readequação do sistema de drenagem pluvial e pavimentação no Sol Nascente, trecho 3",
+          "prazo": "30/12/2016"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": "comp_07",
+  "projeto": "Otimização e Expansão do Sistema de Manejo/Drenagem de Águas Pluviais Urbano e Rural, do Programa Infraestrutura e Sustentabilidade Socioambiental.",
+  "tipo": "Projeto Prioritário",
+  "compromissos": [
+    {
+      "responsavel": "Novacap",
+      "metas": [
+        {
+          "meta": "Conclusão das obras de drenagem do viaduto de Ceilândia",
+          "prazo": "31/05/2016"
+        },
+        {
+          "meta": "Conclusão da 1° etapa e 10% de execução da 2° etapa do sistema de drenagem pluvial, pavimentação e projeto de paisagismo do Noroeste (TERRACAP)",
+          "prazo": "30/06/2016"
+        },
+        {
+          "meta": "Execução de 5% da obra de otimização e reforço do sistema de drenagem pluvial do Plano Piloto (DRENAR/DF)",
+          "prazo": "30/12/2016"
+        },
+        {
+          "meta": "Execução de 10% da obra de otimização e reforço do sistema de drenagem pluvial de Taguatinga (DRENAR/DF)",
+          "prazo": "30/12/2016"
+        },
+        {
+          "meta": "Execução de 30% da obra de ampliação e readequação do sistema de drenagem pluvial e pavimentação no Porto Rico",
+          "prazo": "30/12/2016"
+        },
+        {
+          "meta": "Execução de 10% da obra de ampliação e readequação do sistema de drenagem pluvial e pavimentação no Vicente Pires",
+          "prazo": "30/12/2016"
+        },
+        {
+          "meta": "Execução de 60% da obra de ampliação e readequação do sistema de drenagem pluvial e pavimentação no Buritizinho",
+          "prazo": "30/12/2016"
+        },
+        {
+          "meta": "Execução de 25% da obra de ampliação e readequação do sistema de drenagem pluvial e pavimentação no Bernardo Sayão",
+          "prazo": "30/12/2016"
+        },
+        {
+          "meta": "Revisão e conclusão de projetos e orçamentos da obra de otimização e reforço do sistema de drenagem pluvial no Lago Sul e Planaltina",
+          "prazo": "30/12/2016"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": "comp_08",
+  "projeto": "Expansão da Infraestrutura para Resíduos Sólidos, do Programa Infraestrutura e Sustentabilidade Socioambiental.",
+  "tipo": "Projeto Prioritário",
+  "compromissos": [
+    {
+      "responsavel": "SLU",
+      "metas": [
+        {
+          "meta": "Execução de 60% da obra de reforma de 2 (duas) Instalações de Recuperação de Resíduos (1RR), no SIA e no SCIA",
+          "prazo": "31/12/2016"
+        },
+        {
+          "meta": "Construção e implantação de 6 (seis) Pontos de Entrega Voluntária (PEV) nas Regiões Administrativas",
+          "prazo": "31/12/2016"
+        },
+        {
+          "meta": "Execução de 60% da obra de construção de 2 (duas) Instalações de Recuperação de Resíduos (1RR), na Asa Sul e na Ceilândia",
+          "prazo": "31/12/2016"
+        }
+      ]
+    }
+  ]
+} ,
+{
+  "_id": "comp_09",
+  "projeto": "Construção do Aterro Sanitário de Brasília, do Programa Infraestrutura e Sustentabilidade Socioambiental.",
+  "tipo": "Projeto Prioritário",
+  "compromissos": [
+    {
+      "responsavel": "SLU",
+      "metas": [
+        {
+          "meta": "Implantação da etapa I (Aterro em operação) do Aterro Sanitário de Brasília",
+          "prazo": "31/07/2016"
+        }
+      ]
+    }
+  ]
+} ,
+{
+  "_id": "comp_10",
+  "projeto": "Desativa Lixão, do Programa Infraestrutura e Sustentabilidade Socioambiental",
+  "tipo": "Projeto Prioritário",
+  "compromissos": [
+    {
+      "responsavel": "SLU",
+      "metas": [
+        {
+          "meta": "Reforma do acesso principal do Aterro Controlado do Jóquei Clube",
+          "prazo": "30/11/2016"
+        },
+		{
+          "meta": "Contratação de empresa para confecção do Plano Operacional para Gestão e Encerramento do Lixão nos próximos 2 Anos",
+          "prazo": "31/12/2016"
+        }
+      ]
+    }
+  ]
+}]
