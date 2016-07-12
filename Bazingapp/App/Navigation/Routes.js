@@ -12,6 +12,14 @@ export default new class Routes {
   // they're lazily evaluated to prevent recursion
   // when the screens themselves use this Routes file.
 
+    get ListViewCompromises () {
+      return {
+        title: 'Compromissos - GDF',
+        component: require('../Containers/ListViewCompromises').default,
+        leftButton: 'HAMBURGER'
+      }
+    }
+
   get MapviewExample () {
     return {
       title: 'Mapview Example',
