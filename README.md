@@ -9,7 +9,7 @@
 
 Modelagem Inicial 09/07:
 
-![ScreenShot](img/01-Diagrama1.png)
+![ScreenShot](assets/01-Diagrama1.png)
 
 - Plataforma para avaliar promessas / metas do governo pelo cidadão
 - Inicialmente focado em Infra-estrutura (como obras, reformas) em andamento
