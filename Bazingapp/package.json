@@ -21,6 +21,7 @@
   "dependencies": {
     "apisauce": "^0.2.0",
     "format-json": "^1.0.3",
+    "jsonfile": "^2.3.1",
     "querystringify": "0.0.3",
     "ramda": "^0.21.0",
     "react": "^15.1.0",

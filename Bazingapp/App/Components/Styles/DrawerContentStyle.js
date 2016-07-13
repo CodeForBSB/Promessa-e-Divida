@@ -1,3 +1,5 @@
+
+import { Colors } from '../../Themes/'
 export default {
   container: {
     flex: 1,
@@ -5,5 +7,10 @@ export default {
   },
   logo: {
     alignSelf: 'center'
+  },
+  divider: {
+    marginVertical: 20,
+    backgroundColor: Colors.green2,
+    height: 1
   }
 }

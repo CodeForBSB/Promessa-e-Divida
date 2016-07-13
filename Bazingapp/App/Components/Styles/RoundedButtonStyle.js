@@ -9,7 +9,7 @@ export default StyleSheet.create({
     borderRadius: 5,
     marginHorizontal: Metrics.section,
     marginVertical: Metrics.baseMargin,
-    backgroundColor: Colors.fire,
+    backgroundColor: Colors.green2,
     justifyContent: 'center'
   },
   buttonText: {

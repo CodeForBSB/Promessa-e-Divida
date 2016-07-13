@@ -34,7 +34,7 @@ const NavigationStyle = StyleSheet.create({
     margin: Metrics.baseMargin
   },
   navigationBar: {
-    backgroundColor: Colors.background,
+    backgroundColor: Colors.green1,
     height: Metrics.navBarHeight
   }
 })

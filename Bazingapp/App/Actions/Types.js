@@ -8,9 +8,4 @@ export default createTypes(`
 
   LOGOUT
 
-  STARTUP
-
-  TEMPERATURE_REQUEST
-  TEMPERATURE_RECEIVE
-  TEMPERATURE_FAILURE
 `)

@@ -1,4 +1,13 @@
 const colors = {
+  green1: '#96CA2D',
+  green2: '#B5E655',
+  gray: '#EDF7F2',
+  ciano: '#4BB5C1',
+  ciano2: '#7FC6BC',
+  blueDark: '#6F87B1',
+  blue: '#97C1FC',
+  pink: '#F3ACF9',
+
   background: '#1F0808',
   clear: 'rgba(0,0,0,0)',
   facebook: '#3b5998',
