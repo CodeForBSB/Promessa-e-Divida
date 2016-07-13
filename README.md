@@ -1,13 +1,17 @@
 # Projeto Hackathon Cotidiano - Bazinga Team
-===========
 
 09/07 - 15/07/2016
 
 ===========
+## Objetivos:
 
-### Introdução:
+Criar uma aplicação multi-plataforma de código aberto que possibilite a interação do cidadão com as propostas, metas e promessas feitas pelo governo em exercício do poder. Nesta aplicação poderão ser feitas avaliações sobre construções, reformas, revitalizações ou serviços
+executados pelo governo aproximando também o cidadão da fiscalização dos gastos públicos.
 
-Modelagem Inicial 09/07:
+===========
+## Modelagem:
+
+### Diagrama Inicial 09/07:
 
 ![ScreenShot](assets/01-Diagrama1.png)
 
@@ -15,7 +19,7 @@ Modelagem Inicial 09/07:
 - Inicialmente focado em Infra-estrutura (como obras, reformas) em andamento
 - Classificação por meio de expectativa / impressão, um "perfil" da promessa que conterá fotos e avaliações de seu processo
 
-Protótipo / Mockup 12/07:
+### Protótipo / Mockup 12/07:
 
 ![ScreenShot](assets/telas-prototipo.png)
 
@@ -27,14 +31,8 @@ Protótipo / Mockup 12/07:
 - Tela Minha Fiscalização - Apresenta perfil do usuário cidadão, com medalhas e conquistas dentro da pontuação do aplicativo
 
 ===========
-### Objetivos:
 
-Criar uma aplicação multi-plataforma de código aberto que possibilite a interação do cidadão com as propostas, metas e promessas feitas pelo governo em exercício do poder. Nesta aplicação poderão ser feitas avaliações sobre construções, reformas, revitalizações ou serviços
-executados pelo governo aproximando também o cidadão da fiscalização dos gastos públicos.
-
-===========
-
-### Bibliografia:
+## Bibliografia:
 
 - [GitHook IBM](https://hub.jazz.net/gitHook/)
 - [Observatório Social de Brasília](http://brasilia.osbrasil.org.br/)
