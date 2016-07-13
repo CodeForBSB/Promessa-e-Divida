@@ -2,6 +2,8 @@
 
 09/07 - 15/07/2016
 
+![ScreenShot](assets/logo.png)
+
 ===========
 ## Objetivos:
 
