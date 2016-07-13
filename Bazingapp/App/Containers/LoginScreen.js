@@ -137,16 +137,19 @@ class LoginScreen extends React.Component {
           </View>
 
           <View style={[Styles.loginRow]}>
+
             <TouchableOpacity style={Styles.loginButtonWrapper} onPress={this.handlePressLogin}>
               <View style={Styles.loginButton}>
                 <Text style={Styles.loginText}>{I18n.t('signIn')}</Text>
               </View>
             </TouchableOpacity>
+
             <TouchableOpacity style={Styles.loginButtonWrapper} onPress={this.handlePressCancel}>
               <View style={Styles.loginButton}>
                 <Text style={Styles.loginText}>{I18n.t('cancel')}</Text>
               </View>
             </TouchableOpacity>
+
           </View>
         </View>
 

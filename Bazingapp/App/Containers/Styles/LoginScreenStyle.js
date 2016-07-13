@@ -29,7 +29,7 @@ export default StyleSheet.create({
   loginRow: {
     paddingBottom: 20,
     paddingHorizontal: 20,
-    flexDirection: 'row'
+    flexDirection: 'column'
   },
   loginButtonWrapper: {
     flex: 1
@@ -37,13 +37,14 @@ export default StyleSheet.create({
   loginButton: {
     flex: 1,
     borderWidth: 1,
-    borderColor: Colors.charcoal,
-    backgroundColor: Colors.panther,
-    padding: 6
+    margin: 10,
+    borderColor: Colors.green1,
+    backgroundColor: Colors.green2,
+    padding: 10
   },
   loginText: {
     textAlign: 'center',
-    color: Colors.silver
+    color: Colors.gray
   },
   topLogo: {
     alignSelf: 'center',
