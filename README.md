@@ -23,12 +23,12 @@ executados pelo governo aproximando também o cidadão da fiscalização dos gas
 
 ![ScreenShot](assets/telas-prototipo.png)
 
-- Tela Login
-- Tela Inicial Explorar - Apresenta metas estabelecidas pelo governo. Abas de filtro: 'Destaque', 'Categora' e 'Perto de Mim'
-- Tela Avaliar - Apresenta perfil da meta estabelecida pelo governo, com fotos e avaliações do cidadão - possibilita contactar responsável
-- Tela Contactar Responsável - Apresenta dados dos principais responsáveis pela meta estabelecida
-- Aba Lateral
-- Tela Minha Fiscalização - Apresenta perfil do usuário cidadão, com medalhas e conquistas dentro da pontuação do aplicativo
+1. Tela Login
+2. Tela Inicial Explorar - Apresenta metas estabelecidas pelo governo. Abas de filtro: 'Destaque', 'Categora' e 'Perto de Mim'
+3. Tela Avaliar - Apresenta perfil da meta estabelecida pelo governo, com fotos e avaliações do cidadão - possibilita contactar responsável
+4. Tela Minha Fiscalização - Apresenta perfil do usuário cidadão, com medalhas e conquistas dentro da pontuação do aplicativo
+5. Aba Lateral
+6. Tela Contactar Responsável - Apresenta dados dos principais responsáveis pela meta estabelecida
 
 ===========
 
