@@ -40,69 +40,7 @@ class ListViewCompromises extends React.Component {
       console.dir(obj)
     })
     *************************************************************/
-    // var dataObjects = [{
-    //   "_id": "comp_01",
-    //   "projeto": "Revisão e Implantação do Projeto Orla, do Programa Brasília Competitiva.",
-    //   "tipo": "Projeto Prioritário",
-    //   "compromissos": [
-    //     {
-    //       "responsavel": "Secretaria de Estado de Infraestrutura e Serviços Públicos",
-    //       "metas": [
-    //         {
-    //           "meta": "Implantação de 15 Km de pista de ciclismo/caminhada na Orla do Lago",
-    //           "prazo": "30/12/2016"
-    //         }
-    //       ]
-    //     },
-    //     {
-    //       "responsavel": "Novacap",
-    //       "metas": [
-    //         {
-    //           "meta": "Contratação e início das obras da Concha Acústica - 2a etapa",
-    //           "prazo": "31/10/2016"
-    //         },
-    //         {
-    //           "meta": "Conclusão do Calçadão da Ponte das Garças - Deck Sul",
-    //           "prazo": "31/10/2016"
-    //         }
-    //       ]
-    //     }
-    //   ]
-    // },
 
-    // {
-    //   "_id": "comp_02",
-    //   "projeto": "Construção do Túnel de Taguatinga (EIXO OESTE), do Programa Mobilidade Integrada e Sustentável",
-    //   "tipo": "Projeto Prioritário",
-    //   "compromissos": [
-    //     {
-    //       "responsavel": "Novacap",
-    //       "metas": [
-    //         {
-    //           "meta": "Conclusão dos projetos executivos e início da obra do túnel de Taguatinga",
-    //           "prazo": "30/12/2016"
-    //         }
-    //       ]
-    //     }
-    //   ]
-    // },
-    // {
-    //   "_id": "comp_03",
-    //   "projeto": "Alargamento do Viaduto da EPTG (EIXO OESTE), do Programa Mobilidade Integrada e Sustentável",
-    //   "tipo": "Projeto Prioritário",
-    //   "compromissos": [
-    //     {
-    //       "responsavel": "Novacap",
-    //       "metas": [
-    //         {
-    //           "meta": "Publicação do edital de licitação da obra de alargamento do viaduto da EPTG com a entrada do túnel de Taguatinga — até 30/12/2016.",
-    //           "prazo": "30/12/2016"
-    //         }
-    //       ]
-    //     }
-    //   ]
-    // }
-    // ]
 
     /* ***********************************************************
     * STEP 2
@@ -143,11 +81,11 @@ class ListViewCompromises extends React.Component {
     navigator: PropTypes.object.isRequired
   }
 
-  // componentWillMount () {
-  //   this.props.navigator.state.tapHamburger = () => {
-  //     this.props.navigator.drawer.toggle()
-  //   }
-  // }
+  componentWillMount () {
+    this.props.navigator.state.tapHamburger = () => {
+      this.props.navigator.drawer.toggle()
+    }
+  }
 
   /* ***********************************************************
   * STEP 3
