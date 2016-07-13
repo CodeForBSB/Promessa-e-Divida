@@ -1,5 +1,5 @@
 import React, {PropTypes} from 'react'
-import { View, Text, ListView, TouchableHighlight } from 'react-native'
+import { AppRegistry, View, Text, ListView, TouchableHighlight } from 'react-native'
 import { Images } from '../Themes'
 import { connect } from 'react-redux'
 import Routes from '../Navigation/Routes'
@@ -12,6 +12,17 @@ import AlertMessage from '../Components/AlertMessageComponent'
 
 // Styles
 import styles from './Styles/ListviewCompromisesStyle'
+
+const firebase = require('firebase');
+
+// Initialize Firebase
+const firebaseConfig = {
+  apiKey: "3knN0HE2Y4YG0gVHXfl55vqBzIyRe7GymrjIKS5i",
+  authDomain: "promessa-e-divida.firebaseapp.com",
+  databaseURL: "https://promessa-e-divida.firebaseio.com",
+  storageBucket: "",
+};
+firebase.initializeApp(firebaseConfig);
 
 class ListViewCompromises extends React.Component {
 
@@ -29,71 +40,69 @@ class ListViewCompromises extends React.Component {
       console.dir(obj)
     })
     *************************************************************/
-    var dataObjects = [{
-      "_id": "comp_01",
-      "projeto": "Revisão e Implantação do Projeto Orla, do Programa Brasília Competitiva.",
-      "tipo": "Projeto Prioritário",
-      "compromissos": [
-        {
-          "responsavel": "Secretaria de Estado de Infraestrutura e Serviços Públicos",
-          "metas": [
-            {
-              "meta": "Implantação de 15 Km de pista de ciclismo/caminhada na Orla do Lago",
-              "prazo": "30/12/2016"
-            }
-          ]
-        },
-        {
-          "responsavel": "Novacap",
-          "metas": [
-            {
-              "meta": "Contratação e início das obras da Concha Acústica - 2a etapa",
-              "prazo": "31/10/2016"
-            },
-            {
-              "meta": "Conclusão do Calçadão da Ponte das Garças - Deck Sul",
-              "prazo": "31/10/2016"
-            }
-          ]
-        }
-      ]
-    },
+    // var dataObjects = [{
+    //   "_id": "comp_01",
+    //   "projeto": "Revisão e Implantação do Projeto Orla, do Programa Brasília Competitiva.",
+    //   "tipo": "Projeto Prioritário",
+    //   "compromissos": [
+    //     {
+    //       "responsavel": "Secretaria de Estado de Infraestrutura e Serviços Públicos",
+    //       "metas": [
+    //         {
+    //           "meta": "Implantação de 15 Km de pista de ciclismo/caminhada na Orla do Lago",
+    //           "prazo": "30/12/2016"
+    //         }
+    //       ]
+    //     },
+    //     {
+    //       "responsavel": "Novacap",
+    //       "metas": [
+    //         {
+    //           "meta": "Contratação e início das obras da Concha Acústica - 2a etapa",
+    //           "prazo": "31/10/2016"
+    //         },
+    //         {
+    //           "meta": "Conclusão do Calçadão da Ponte das Garças - Deck Sul",
+    //           "prazo": "31/10/2016"
+    //         }
+    //       ]
+    //     }
+    //   ]
+    // },
 
-    {
-      "_id": "comp_02",
-      "projeto": "Construção do Túnel de Taguatinga (EIXO OESTE), do Programa Mobilidade Integrada e Sustentável",
-      "tipo": "Projeto Prioritário",
-      "compromissos": [
-        {
-          "responsavel": "Novacap",
-          "metas": [
-            {
-              "meta": "Conclusão dos projetos executivos e início da obra do túnel de Taguatinga",
-              "prazo": "30/12/2016"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "_id": "comp_03",
-      "projeto": "Alargamento do Viaduto da EPTG (EIXO OESTE), do Programa Mobilidade Integrada e Sustentável",
-      "tipo": "Projeto Prioritário",
-      "compromissos": [
-        {
-          "responsavel": "Novacap",
-          "metas": [
-            {
-              "meta": "Publicação do edital de licitação da obra de alargamento do viaduto da EPTG com a entrada do túnel de Taguatinga — até 30/12/2016.",
-              "prazo": "30/12/2016"
-            }
-          ]
-        }
-      ]
-    }
-    ]
-
-
+    // {
+    //   "_id": "comp_02",
+    //   "projeto": "Construção do Túnel de Taguatinga (EIXO OESTE), do Programa Mobilidade Integrada e Sustentável",
+    //   "tipo": "Projeto Prioritário",
+    //   "compromissos": [
+    //     {
+    //       "responsavel": "Novacap",
+    //       "metas": [
+    //         {
+    //           "meta": "Conclusão dos projetos executivos e início da obra do túnel de Taguatinga",
+    //           "prazo": "30/12/2016"
+    //         }
+    //       ]
+    //     }
+    //   ]
+    // },
+    // {
+    //   "_id": "comp_03",
+    //   "projeto": "Alargamento do Viaduto da EPTG (EIXO OESTE), do Programa Mobilidade Integrada e Sustentável",
+    //   "tipo": "Projeto Prioritário",
+    //   "compromissos": [
+    //     {
+    //       "responsavel": "Novacap",
+    //       "metas": [
+    //         {
+    //           "meta": "Publicação do edital de licitação da obra de alargamento do viaduto da EPTG com a entrada do túnel de Taguatinga — até 30/12/2016.",
+    //           "prazo": "30/12/2016"
+    //         }
+    //       ]
+    //     }
+    //   ]
+    // }
+    // ]
 
     /* ***********************************************************
     * STEP 2
@@ -101,26 +110,44 @@ class ListViewCompromises extends React.Component {
     * Make this function fast!  Perhaps something like:
     *   (r1, r2) => r1.id !== r2.id}
     *************************************************************/
-    const rowHasChanged = (r1, r2) => r1 !== r2
-
-    // DataSource configured
-    const ds = new ListView.DataSource({rowHasChanged})
-
-    // Datasource is always in state
     this.state = {
-      dataSource: ds.cloneWithRows(dataObjects)
-    }
+      dataSource: new ListView.DataSource({
+        rowHasChanged: (row1, row2) => row1 !== row2,
+      })
+    };
+
+    this.itemsRef = firebase.database().ref().child('promises');
+  }
+
+  listenForItems(itemsRef) {
+    itemsRef.on('value', (promises) => {
+
+      // get children as an array
+      var items = [];
+      promises.forEach((child) => {
+        items.push(child.val());
+      });
+
+      this.setState({
+        dataSource: this.state.dataSource.cloneWithRows(items)
+      });
+
+    });
+  }
+
+  componentDidMount() {
+    this.listenForItems(this.itemsRef);
   }
 
   static propTypes = {
     navigator: PropTypes.object.isRequired
   }
 
-  componentWillMount () {
-    this.props.navigator.state.tapHamburger = () => {
-      this.props.navigator.drawer.toggle()
-    }
-  }
+  // componentWillMount () {
+  //   this.props.navigator.state.tapHamburger = () => {
+  //     this.props.navigator.drawer.toggle()
+  //   }
+  // }
 
   /* ***********************************************************
   * STEP 3
@@ -136,26 +163,23 @@ class ListViewCompromises extends React.Component {
           //this._pressRow(rowData._id);
           }}>
           <View style={styles.itemView}>
-              <Text style={styles.itemText}>{rowData.tipo}</Text>
-              <Text style={styles.itemText}>{rowData.projeto}</Text>
+              <Text style={styles.itemText}>{rowData.project}</Text>
+              <Text style={styles.itemText}>{rowData.type}</Text>
               <Text style={styles.itemText}>Metas</Text>
-              {rowData.compromissos.map(function(object, i){
-                    return <View key={i}>
-                          <Text >Responsável: {object.responsavel}</Text>
-                        {object.metas.map(function(meta, i){
-                          return <View key={i}>
-                                    <Text >
-                                      Meta: {meta.meta}
-                                    </Text>
-                                    <Text >
-                                      Prazo: {meta.prazo}
-                                    </Text>
-                                  </View>;
-
+              {rowData.compromises.map(function(compromise, i){
+                return <View key={i}>
+                      <Text >Responsável: {compromise.responsible}</Text>
+                      {compromise.goals.map(function(goal, i){
+                        return <View key={i}>
+                                  <Text >
+                                    Meta: {goal.goal}
+                                  </Text>
+                                  <Text >
+                                    Prazo: {goal.deadline}
+                                  </Text>
+                                </View>;
                       })}
                     </View>;
-
-
                 })}
           </View>
         </TouchableHighlight>;
