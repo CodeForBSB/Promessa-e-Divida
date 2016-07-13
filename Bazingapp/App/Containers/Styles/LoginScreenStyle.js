@@ -2,32 +2,42 @@ import { StyleSheet } from 'react-native'
 import Colors from '../../Themes/Colors'
 
 export default StyleSheet.create({
+  bgImageWrapper: {
+    position: 'absolute',
+    top: 0, bottom: 0, left: 0, right: 0
+  },
+  bgImage: {
+    flex: 1,
+    resizeMode: 'stretch',
+    width: null,
+    height: null
+  },
   container: {
     paddingTop: 70,
-    backgroundColor: Colors.ember
+    //backgroundColor: Colors.ember
   },
   form: {
-    backgroundColor: Colors.snow,
+    //backgroundColor: Colors.gray,
     margin: 10,
     borderRadius: 4
   },
   row: {
     paddingVertical: 20,
-    paddingHorizontal: 20
+    paddingHorizontal: 40
   },
   rowLabel: {
-    color: Colors.charcoal
+    color: Colors.gray
   },
   textInput: {
     height: 40,
-    color: Colors.coal
+    color: Colors.gray
   },
   textInputReadonly: {
     height: 40,
     color: Colors.steel
   },
   loginRow: {
-    paddingBottom: 20,
+    paddingBottom: 10,
     paddingHorizontal: 20,
     flexDirection: 'column'
   },
@@ -47,6 +57,8 @@ export default StyleSheet.create({
     color: Colors.gray
   },
   topLogo: {
+    marginTop: 30,
+    marginBottom: 30,
     alignSelf: 'center',
     resizeMode: 'contain'
   }

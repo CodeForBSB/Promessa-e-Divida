@@ -8,7 +8,7 @@ const colors = {
   blue: '#97C1FC',
   pink: '#F3ACF9',
 
-  background: '#1F0808',
+  background: '#4BB5C1',//'#1F0808',
   clear: 'rgba(0,0,0,0)',
   facebook: '#3b5998',
   transparent: 'rgba(0,0,0,0)',

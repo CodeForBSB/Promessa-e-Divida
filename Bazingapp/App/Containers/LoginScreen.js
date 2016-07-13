@@ -18,13 +18,15 @@ import {Images, Metrics} from '../Themes'
 // I18n
 import I18n from '../I18n/I18n.js'
 
+//<Image source={Images.login_bg} style={Styles.backgroundImage}></Image>
+
 class LoginScreen extends React.Component {
 
   constructor (props) {
     super(props)
     this.state = {
-      username: 'reactnative@infinite.red',
-      password: 'password',
+      username: 'exemplo@promessaedivida.com.br',
+      password: 'senha',
       visibleHeight: Metrics.screenHeight,
       topLogo: { width: Metrics.screenWidth }
     }
@@ -104,56 +106,58 @@ class LoginScreen extends React.Component {
     const editable = !attempting
     const textInputStyle = editable ? Styles.textInput : Styles.textInputReadonly
     return (
-      <ScrollView contentContainerStyle={{justifyContent: 'center'}} style={[Styles.container, {height: this.state.visibleHeight}]}>
-        <Image source={Images.logo} style={[Styles.topLogo, this.state.topLogo]} />
-        <View style={Styles.form}>
-          <View style={Styles.row}>
-            <Text style={Styles.rowLabel}>{I18n.t('username')}</Text>
-            <TextInput
-              ref='username'
-              style={textInputStyle}
-              value={username}
-              editable={editable}
-              keyboardType='default'
-              returnKeyType='search'
-              onChangeText={this.handleChangeUsername}
-              underlineColorAndroid='transparent'
-              placeholder={I18n.t('username')} />
+      <View contentContainerStyle={{justifyContent: 'center'}} style={[Styles.container, {height: this.state.visibleHeight}]}>
+          <View style={Styles.bgImageWrapper}>
+            <Image source={Images.login_bg} style={Styles.bgImage} />
           </View>
+          <Image source={Images.logo} style={[Styles.topLogo, this.state.topLogo]} />
+          <View style={Styles.form}>
+            <View style={Styles.row}>
+              <Text style={Styles.rowLabel}>{I18n.t('username')}</Text>
+              <TextInput
+                ref='username'
+                style={textInputStyle}
+                value={username}
+                editable={editable}
+                keyboardType='default'
+                returnKeyType='search'
+                onChangeText={this.handleChangeUsername}
+                underlineColorAndroid='transparent'
+                placeholder={I18n.t('username')} />
+            </View>
 
-          <View style={Styles.row}>
-            <Text style={Styles.rowLabel}>{I18n.t('password')}</Text>
-            <TextInput
-              ref='password'
-              style={textInputStyle}
-              value={password}
-              editable={editable}
-              keyboardType='default'
-              returnKeyType='search'
-              secureTextEntry
-              onChangeText={this.handleChangePassword}
-              underlineColorAndroid='transparent'
-              placeholder={I18n.t('password')} />
+            <View style={Styles.row}>
+              <Text style={Styles.rowLabel}>{I18n.t('password')}</Text>
+              <TextInput
+                ref='password'
+                style={textInputStyle}
+                value={password}
+                editable={editable}
+                keyboardType='default'
+                returnKeyType='search'
+                secureTextEntry
+                onChangeText={this.handleChangePassword}
+                underlineColorAndroid='transparent'
+                placeholder={I18n.t('password')} />
+            </View>
+
+            <View style={[Styles.loginRow]}>
+
+              <TouchableOpacity style={Styles.loginButtonWrapper} onPress={this.handlePressLogin}>
+                <View style={Styles.loginButton}>
+                  <Text style={Styles.loginText}>{I18n.t('signIn')}</Text>
+                </View>
+              </TouchableOpacity>
+
+              <TouchableOpacity style={Styles.loginButtonWrapper} onPress={this.handlePressCancel}>
+                <View style={Styles.loginButton}>
+                  <Text style={Styles.loginText}>{I18n.t('cancel')}</Text>
+                </View>
+              </TouchableOpacity>
+
+            </View>
           </View>
-
-          <View style={[Styles.loginRow]}>
-
-            <TouchableOpacity style={Styles.loginButtonWrapper} onPress={this.handlePressLogin}>
-              <View style={Styles.loginButton}>
-                <Text style={Styles.loginText}>{I18n.t('signIn')}</Text>
-              </View>
-            </TouchableOpacity>
-
-            <TouchableOpacity style={Styles.loginButtonWrapper} onPress={this.handlePressCancel}>
-              <View style={Styles.loginButton}>
-                <Text style={Styles.loginText}>{I18n.t('cancel')}</Text>
-              </View>
-            </TouchableOpacity>
-
-          </View>
-        </View>
-
-      </ScrollView>
+      </View>
     )
   }
 
