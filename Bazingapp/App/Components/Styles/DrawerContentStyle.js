@@ -6,6 +6,8 @@ export default {
     padding: 20
   },
   logo: {
+    marginTop: 50,
+    marginBottom: 20,
     width: 200,
     height: 100,
     alignSelf: 'center',

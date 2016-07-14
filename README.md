@@ -32,6 +32,8 @@ executados pelo governo aproximando também o cidadão da fiscalização dos gas
 4. Tela Minha Fiscalização - Apresenta perfil do usuário cidadão, com medalhas e conquistas dentro da pontuação do aplicativo
 5. Aba Lateral
 6. Tela Contactar Responsável - Apresenta dados dos principais responsáveis pela meta estabelecida
+7. Tela Perto de Mim - Apresenta pontos de metas mapeados mais geograficamente próximos do usuário
+8. Alerta de proximidade - caso o usuário transite perto de um ponto mapeados ele será alertado e receberá pontos ao informar a plataforma
 
 ===========
 
