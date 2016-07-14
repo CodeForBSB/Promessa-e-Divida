@@ -1,0 +1,1 @@
+"{\n  \"rules\": {\n    \".read\": true,\n    \".write\": true // ler em https://firebase.google.com/docs/database/security/quickstart\n  }\n}"
