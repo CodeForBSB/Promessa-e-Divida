@@ -18,12 +18,14 @@ export default StyleSheet.create({
   },
   form: {
     //backgroundColor: Colors.gray,
-    margin: 10,
-    borderRadius: 4
+    marginRight: 30,
+    marginLeft: 30,
+    borderRadius: 4,
+    backgroundColor:'rgba(61,61,61,0.2)'
   },
   row: {
     paddingVertical: 20,
-    paddingHorizontal: 40
+    paddingHorizontal: 40,
   },
   rowLabel: {
     color: Colors.gray

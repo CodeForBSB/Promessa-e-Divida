@@ -38,14 +38,14 @@ class TabScreen extends React.Component {
   render () {
     return (
       <ScrollableTabView  style={styles.tabs}
-      tabBarBackgroundColor={Colors.green1}
-      tabBarUnderlineColor={Colors.blueDark}
-      tabBarActiveTextColor={Colors.blueDark}
-      tabBarInactiveTextColor= "white">
-       <ListViewCompromises tabLabel="Destaque" />
-        <ListViewCompromises tabLabel="Categorias" />
-         <ListViewCompromises tabLabel="Perto de mim" />
-     </ScrollableTabView>
+        tabBarBackgroundColor={Colors.green1}
+        tabBarUnderlineColor={Colors.blueDark}
+        tabBarActiveTextColor={Colors.blueDark}
+        tabBarInactiveTextColor= "white">
+         <ListViewCompromises tabLabel="Destaque" />
+          <ListViewCompromises tabLabel="Categorias" />
+           <ListViewCompromises tabLabel="Perto de mim" />
+      </ScrollableTabView>
     )
   }
 }

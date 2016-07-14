@@ -6,7 +6,10 @@ export default {
     padding: 20
   },
   logo: {
-    alignSelf: 'center'
+    width: 200,
+    height: 100,
+    alignSelf: 'center',
+    resizeMode: 'cover'
   },
   divider: {
     marginVertical: 20,
