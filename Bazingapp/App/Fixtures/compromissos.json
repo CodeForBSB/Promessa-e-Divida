@@ -1,235 +1,117 @@
-{"promises": [{
-  "_id": "comp_01",
-  "project": "Revisão e Implantação do Projeto Orla, do Programa Brasília Competitiva.",
-  "type": "Projeto Prioritário",
-  "promises": [
-    {
-      "responsible": "Secretaria de Estado de Infraestrutura e Serviços Públicos",
-      "goals": [
-        {
-          "goal": "Implantação de 15 Km de pista de ciclismo/caminhada na Orla do Lago",
-          "deadline": "30/12/2016"
-        }
-      ]
-    },
-    {
-      "responsible": "Novacap",
-      "goals": [
-        {
-          "goal": "Contratação e início das obras da Concha Acústica - 2a etapa",
-          "deadline": "31/10/2016"
-        },
-        {
-          "goal": "Conclusão do Calçadão da Ponte das Garças - Deck Sul",
-          "deadline": "31/10/2016"
-        }
-      ]
-    }
-  ]
-},
+{
+  "institutions" : [ {
+    "_id" : "inst_01",
+    "name" : "SLU",
+    "phone" : "162"
+  }, {
+    "_id" : "inst_02",
+    "name" : "Novacap",
+    "phone" : "162"
+  }, {
+    "_id" : "inst_03",
+    "name" : "CAESB",
+    "phone" : "3329-9090"
+  }, {
+    "_id" : "inst_04",
+    "name" : "Secretaria de Estado de Infraestrutura e Serviços Públicos",
+    "phone" : "162"
+  } ],
 
-{
-  "_id": "comp_02",
-  "project": "Construção do Túnel de Taguatinga (EIXO OESTE), do Programa Mobilidade Integrada e Sustentável",
-  "type": "Projeto Prioritário",
-  "promises": [
-    {
-      "responsible": "Novacap",
-      "goals": [
-        {
-          "goal": "Conclusão dos projetos executivos e início da obra do túnel de Taguatinga",
-          "deadline": "30/12/2016"
-        }
-      ]
-    }
-  ]
-},
-{
-  "_id": "comp_03",
-  "project": "Alargamento do Viaduto da EPTG (EIXO OESTE), do Programa Mobilidade Integrada e Sustentável",
-  "type": "Projeto Prioritário",
-  "promises": [
-    {
-      "responsible": "Novacap",
-      "goals": [
-        {
-          "goal": "Publicação do edital de licitação da obra de alargamento do viaduto da EPTG com a entrada do túnel de Taguatinga — até 30/12/2016.",
-          "deadline": "30/12/2016"
-        }
-      ]
-    }
-  ]
-},
-{
-  "_id": "comp_04",
-  "project": "Duplicação e Revitalização da ESPM (EIXO OESTE), do Programa Mobilidade Integrada e Sustentável",
-  "type": "Projeto Prioritário",
-  "promises": [
-    {
-      "responsible": "Novacap",
-      "goals": [
-        {
-          "goal": "Publicação do edital de licitação de duplicação e revitalização da Estrada Setor Policial Militar — ESPM",
-          "deadline": "30/12/2016"
-        }
-      ]
-    }
-  ]
-},
-{
-  "_id": "comp_05",
-  "project": "Duplicação e Revitalização da ESPM (EIXO OESTE), do Programa Mobilidade Integrada e Sustentável",
-  "type": "Projeto Prioritário",
-  "promises": [
-    {
-      "responsible": "Novacap",
-      "goals": [
-        {
-          "goal": "Contratar e iniciar a duplicação da via de ligação entre Sol Nascente e Hélio Prates",
-          "deadline": "31/12/2016"
-        }
-      ]
-    }
-  ]
-},{
-  "_id": "comp_06",
-  "project": "Execução de Infraestrutura Urbana e Construção de Unidades Habitacionais no Sol Nascente, do Programa Infraestrutura e Sustentabilidade Socioambiental.",
-  "type": "Projeto Prioritário",
-  "promises": [
-    {
-      "responsible": "CAESB",
-      "goals": [
-        {
-          "goal": "Conclusão da implantação das bacias A e B do Trecho I do Sistema de esgotamento sanitário no Sol Nascente",
-          "deadline": "30/12/2016"
-        }
-      ]
-    },
-	{
-      "responsible": "Secretaria de Estado de Infraestrutura e Serviços Públicos",
-      "goals": [
-        {
-          "goal": "Conclusão de 30% da obra de ampliação e readequação do sistema de drenagem pluvial e pavimentação no Sol Nascente, trecho 1",
-          "deadline": "30/12/2016"
-        },
-		{
-          "goal": "Conclusão de 30% da obra de ampliação e readequação do sistema de drenagem pluvial e pavimentação no Sol Nascente, trecho 2",
-          "deadline": "30/12/2016"
-        },
-		{
-          "goal": "Conclusão de 15% da obra de ampliação e readequação do sistema de drenagem pluvial e pavimentação no Sol Nascente, trecho 3",
-          "deadline": "30/12/2016"
-        }
-      ]
-    }
-  ]
-},
-{
-  "_id": "comp_07",
-  "project": "Otimização e Expansão do Sistema de Manejo/Drenagem de Águas Pluviais Urbano e Rural, do Programa Infraestrutura e Sustentabilidade Socioambiental.",
-  "type": "Projeto Prioritário",
-  "promises": [
-    {
-      "responsible": "Novacap",
-      "goals": [
-        {
-          "goal": "Conclusão das obras de drenagem do viaduto de Ceilândia",
-          "deadline": "31/05/2016"
-        },
-        {
-          "goal": "Conclusão da 1° etapa e 10% de execução da 2° etapa do sistema de drenagem pluvial, pavimentação e projeto de paisagismo do Noroeste (TERRACAP)",
-          "deadline": "30/06/2016"
-        },
-        {
-          "goal": "Execução de 5% da obra de otimização e reforço do sistema de drenagem pluvial do Plano Piloto (DRENAR/DF)",
-          "deadline": "30/12/2016"
-        },
-        {
-          "goal": "Execução de 10% da obra de otimização e reforço do sistema de drenagem pluvial de Taguatinga (DRENAR/DF)",
-          "deadline": "30/12/2016"
-        },
-        {
-          "goal": "Execução de 30% da obra de ampliação e readequação do sistema de drenagem pluvial e pavimentação no Porto Rico",
-          "deadline": "30/12/2016"
-        },
-        {
-          "goal": "Execução de 10% da obra de ampliação e readequação do sistema de drenagem pluvial e pavimentação no Vicente Pires",
-          "deadline": "30/12/2016"
-        },
-        {
-          "goal": "Execução de 60% da obra de ampliação e readequação do sistema de drenagem pluvial e pavimentação no Buritizinho",
-          "deadline": "30/12/2016"
-        },
-        {
-          "goal": "Execução de 25% da obra de ampliação e readequação do sistema de drenagem pluvial e pavimentação no Bernardo Sayão",
-          "deadline": "30/12/2016"
-        },
-        {
-          "goal": "Revisão e conclusão de projetos e orçamentos da obra de otimização e reforço do sistema de drenagem pluvial no Lago Sul e Planaltina",
-          "deadline": "30/12/2016"
-        }
-      ]
-    }
-  ]
-},
-{
-  "_id": "comp_08",
-  "project": "Expansão da Infraestrutura para Resíduos Sólidos, do Programa Infraestrutura e Sustentabilidade Socioambiental.",
-  "type": "Projeto Prioritário",
-  "promises": [
-    {
-      "responsible": "SLU",
-      "goals": [
-        {
-          "goal": "Execução de 60% da obra de reforma de 2 (duas) Instalações de Recuperação de Resíduos (1RR), no SIA e no SCIA",
-          "deadline": "31/12/2016"
-        },
-        {
-          "goal": "Construção e implantação de 6 (seis) Pontos de Entrega Voluntária (PEV) nas Regiões Administrativas",
-          "deadline": "31/12/2016"
-        },
-        {
-          "goal": "Execução de 60% da obra de construção de 2 (duas) Instalações de Recuperação de Resíduos (1RR), na Asa Sul e na Ceilândia",
-          "deadline": "31/12/2016"
-        }
-      ]
-    }
-  ]
-} ,
-{
-  "_id": "comp_09",
-  "project": "Construção do Aterro Sanitário de Brasília, do Programa Infraestrutura e Sustentabilidade Socioambiental.",
-  "type": "Projeto Prioritário",
-  "promises": [
-    {
-      "responsible": "SLU",
-      "goals": [
-        {
-          "goal": "Implantação da etapa I (Aterro em operação) do Aterro Sanitário de Brasília",
-          "deadline": "31/07/2016"
-        }
-      ]
-    }
-  ]
-} ,
-{
-  "_id": "comp_10",
-  "project": "Desativa Lixão, do Programa Infraestrutura e Sustentabilidade Socioambiental",
-  "type": "Projeto Prioritário",
-  "promises": [
-    {
-      "responsible": "SLU",
-      "goals": [
-        {
-          "goal": "Reforma do acesso principal do Aterro Controlado do Jóquei Clube",
-          "deadline": "30/11/2016"
-        },
-		{
-          "goal": "Contratação de empresa para confecção do Plano Operacional para Gestão e Encerramento do Lixão nos próximos 2 Anos",
-          "deadline": "31/12/2016"
-        }
-      ]
-    }
-  ]
-}]
+
+  "promises" : [ {
+    "_id" : "comp_01",
+    "deadline" : "30/12/2016",
+    "goal" : "Implantação de 15 Km de pista de ciclismo/caminhada na Orla do Lago",
+    "responsible" : "Secretaria de Estado de Infraestrutura e Serviços Públicos",
+    "project" : "Revisão e Implantação do Projeto Orla, do Programa Brasília Competitiva.",
+    "type" : "Projeto Prioritário",
+    "categoria" : "Infraestrutura"
+    }, {
+      "_id" : "comp_02",
+        "deadline" : "31/10/2016",
+        "goal" : "Contratação e início das obras da Concha Acústica - 2a etapa",
+        "responsible" : "Novacap",
+        "project" : "Revisão e Implantação do Projeto Orla, do Programa Brasília Competitiva.",
+        "type" : "Projeto Prioritário",
+        "categoria" : "Infraestrutura"
+      }, {
+        "_id" : "comp_03",
+        "deadline" : "31/10/2016",
+        "goal" : "Conclusão do Calçadão da Ponte das Garças - Deck Sul",
+        "responsible" : "Novacap",
+        "project" : "Revisão e Implantação do Projeto Orla, do Programa Brasília Competitiva.",
+        "type" : "Projeto Prioritário",
+        "categoria" : "Infraestrutura"
+  }, {
+    "_id" : "comp_04",
+      "deadline" : "30/12/2016",
+      "goal" : "Conclusão dos projetos executivos e início da obra do túnel de Taguatinga",
+      "responsible" : "Novacap",
+      "project" : "Construção do Túnel de Taguatinga (EIXO OESTE), do Programa Mobilidade Integrada e Sustentável",
+      "type" : "Projeto Prioritário",
+      "categoria" : "Infraestrutura"
+
+  }, {
+    "_id" : "comp_05",
+    "deadline" : "30/12/2016",
+    "goal" : "Publicação do edital de licitação da obra de alargamento do viaduto da EPTG com a entrada do túnel de Taguatinga — até 30/12/2016.",
+    "responsible" : "Novacap",
+    "project" : "Alargamento do Viaduto da EPTG (EIXO OESTE), do Programa Mobilidade Integrada e Sustentável",
+    "type" : "Projeto Prioritário",
+    "categoria" : "Infraestrutura"
+
+  }, {
+    "_id" : "comp_06",
+    "deadline" : "30/12/2016",
+    "goal" : "Publicação do edital de licitação de duplicação e revitalização da Estrada Setor Policial Militar — ESPM",
+  "responsible" : "Novacap",
+  "project" : "Duplicação e Revitalização da ESPM (EIXO OESTE), do Programa Mobilidade Integrada e Sustentável",
+  "type" : "Projeto Prioritário",
+  "categoria" : "Infraestrutura"
+
+  }, {
+    "_id" : "comp_07",
+      "deadline" : "31/12/2016",
+      "goal" : "Contratar e iniciar a duplicação da via de ligação entre Sol Nascente e Hélio Prates",
+      "responsible" : "Novacap",
+      "project" : "Duplicação e Revitalização da ESPM (EIXO OESTE), do Programa Mobilidade Integrada e Sustentável",
+      "type" : "Projeto Prioritário",
+      "categoria" : "Infraestrutura"
+
+  }, {
+    "_id" : "comp_08",
+    "deadline" : "30/12/2016",
+    "goal" : "Conclusão da implantação das bacias A e B do Trecho I do Sistema de esgotamento sanitário no Sol Nascente",
+    "responsible" : "CAESB",
+    "project" : "Execução de Infraestrutura Urbana e Construção de Unidades Habitacionais no Sol Nascente, do Programa Infraestrutura e Sustentabilidade Socioambiental.",
+    "type" : "Projeto Prioritário",
+    "categoria" : "Infraestrutura"
+
+    }, {
+      "_id" : "comp_09",
+      "deadline" : "30/12/2016",
+      "goal" : "Conclusão de 30% da obra de ampliação e readequação do sistema de drenagem pluvial e pavimentação no Sol Nascente, trecho 1",
+      "responsible" : "Secretaria de Estado de Infraestrutura e Serviços Públicos",
+      "project" : "Execução de Infraestrutura Urbana e Construção de Unidades Habitacionais no Sol Nascente, do Programa Infraestrutura e Sustentabilidade Socioambiental.",
+      "type" : "Projeto Prioritário",
+      "categoria" : "Infraestrutura"
+
+      }, {
+        "_id" : "comp_10",
+        "deadline" : "30/12/2016",
+        "goal" : "Conclusão de 30% da obra de ampliação e readequação do sistema de drenagem pluvial e pavimentação no Sol Nascente, trecho 2",
+        "responsible" : "Secretaria de Estado de Infraestrutura e Serviços Públicos",
+        "project" : "Execução de Infraestrutura Urbana e Construção de Unidades Habitacionais no Sol Nascente, do Programa Infraestrutura e Sustentabilidade Socioambiental.",
+        "type" : "Projeto Prioritário",
+        "categoria" : "Infraestrutura"
+      }, {
+        "_id" : "comp_11",
+        "deadline" : "30/12/2016",
+        "goal" : "Conclusão de 15% da obra de ampliação e readequação do sistema de drenagem pluvial e pavimentação no Sol Nascente, trecho 3",
+        "responsible" : "Secretaria de Estado de Infraestrutura e Serviços Públicos",
+        "project" : "Execução de Infraestrutura Urbana e Construção de Unidades Habitacionais no Sol Nascente, do Programa Infraestrutura e Sustentabilidade Socioambiental.",
+        "type" : "Projeto Prioritário",
+        "categoria" : "Infraestrutura"
+      }
+    ]
 }

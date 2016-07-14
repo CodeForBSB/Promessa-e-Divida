@@ -20,6 +20,14 @@ export default new class Routes {
       }
     }
 
+    get TabsScreen () {
+      return {
+        title: 'Explorar',
+        component: require('../Containers/TabsScreen').default,
+        leftButton: 'HAMBURGER'
+      }
+    }
+
   get MapviewExample () {
     return {
       title: 'Mapview Example',
