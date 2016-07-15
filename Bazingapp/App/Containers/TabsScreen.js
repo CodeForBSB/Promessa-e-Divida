@@ -34,18 +34,25 @@ class TabScreen extends React.Component {
     }
   }
 
+  handlePushRoute = (route) => {
+    this.navigator.push(route)
+  }
+
 
   render () {
     return (
-      <ScrollableTabView  style={styles.tabs}
+      <View  style={styles.tabs}>
+
+      <ScrollableTabView
         tabBarBackgroundColor={Colors.green1}
         tabBarUnderlineColor={Colors.blueDark}
         tabBarActiveTextColor={Colors.blueDark}
         tabBarInactiveTextColor= "white">
-         <ListViewCompromises tabLabel="Destaque" />
-          <ListViewCompromises tabLabel="Categorias" />
-           <ListViewCompromises tabLabel="Perto de mim" />
+         <ListViewCompromises tabLabel="Destaque"  navigator={this.props.navigator} onPushRoute={this.handlePushRoute}/>
+          <ListViewCompromises tabLabel="Categorias" onPushRoute={this.handlePushRoute}/>
+           <ListViewCompromises tabLabel="Perto de mim" onPushRoute={this.handlePushRoute}/>
       </ScrollableTabView>
+      </View>
     )
   }
 }
