@@ -37,7 +37,11 @@
     "react-native-maps": "^0.7.1",
 >>>>>>> Stashed changes
     "react-native-scrollable-tab-view": "^0.5.3",
+<<<<<<< Updated upstream
     "react-native-share": "^1.0.11",
+=======
+    "react-native-spinkit": "^0.1.2",
+>>>>>>> Stashed changes
     "react-native-vector-icons": "^2.0.2",
     "react-redux": "^4.4.2",
     "redux": "^3.4.0",

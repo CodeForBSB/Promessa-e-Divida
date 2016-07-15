@@ -43,6 +43,7 @@ class TabScreen extends React.Component {
 
   render () {
     return (
+<<<<<<< Updated upstream
 
       <ScrollableTabView style={styles.tabs}
         tabBarBackgroundColor={Colors.green1}
@@ -58,6 +59,19 @@ class TabScreen extends React.Component {
           <MapviewExample tabLabel="Perto de mim" />
 >>>>>>> Stashed changes
       </ScrollableTabView>
+=======
+      <View  style={styles.tabs}>
+        <ScrollableTabView
+          tabBarBackgroundColor={Colors.green1}
+          tabBarUnderlineColor={Colors.blueDark}
+          tabBarActiveTextColor={Colors.blueDark}
+          tabBarInactiveTextColor= "white">
+            <ListViewCompromises tabLabel="Destaque"  navigator={this.props.navigator} onPushRoute={this.handlePushRoute}/>
+            <ListViewCompromises tabLabel="Categorias" navigator={this.props.navigator} onPushRoute={this.handlePushRoute}/>
+            <ListViewCompromises tabLabel="Perto de mim" navigator={this.props.navigator} onPushRoute={this.handlePushRoute}/>
+        </ScrollableTabView>
+      </View>
+>>>>>>> Stashed changes
     )
   }
 }

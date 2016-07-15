@@ -1,8 +1,12 @@
 package com.bazingapp;
 
 import com.facebook.react.ReactActivity;
+<<<<<<< Updated upstream
 import cl.json.RNSharePackage;
 import com.airbnb.android.react.maps.MapsPackage;
+=======
+import com.react.rnspinkit.RNSpinkitPackage;
+>>>>>>> Stashed changes
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.i18n.reactnativei18n.ReactNativeI18n;
 import com.learnium.RNDeviceInfo.RNDeviceInfo;
@@ -22,6 +26,7 @@ public class MainActivity extends ReactActivity {
     protected List<ReactPackage> getPackages() {
         return Arrays.<ReactPackage>asList(
             new MainReactPackage(),
+            new RNSpinkitPackage(),
             new ImagePickerPackage() // Add package
         );
     }
