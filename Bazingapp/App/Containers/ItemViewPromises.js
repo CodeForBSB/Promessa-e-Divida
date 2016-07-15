@@ -13,16 +13,16 @@ import AlertMessage from '../Components/AlertMessageComponent'
 // Styles
 import styles from './Styles/ItemViewPromisesStyle'
 
-const firebase = require('firebase');
-
-// Initialize Firebase
-const firebaseConfig = {
-  apiKey: "3knN0HE2Y4YG0gVHXfl55vqBzIyRe7GymrjIKS5i",
-  authDomain: "promessa-e-divida.firebaseapp.com",
-  databaseURL: "https://promessa-e-divida.firebaseio.com",
-  storageBucket: "",
-};
-firebase.initializeApp(firebaseConfig);
+// const firebase = require('firebase');
+//
+// // Initialize Firebase
+// const firebaseConfig = {
+//   apiKey: "3knN0HE2Y4YG0gVHXfl55vqBzIyRe7GymrjIKS5i",
+//   authDomain: "promessa-e-divida.firebaseapp.com",
+//   databaseURL: "https://promessa-e-divida.firebaseio.com",
+//   storageBucket: "",
+// };
+// firebase.initializeApp(firebaseConfig);
 
 class ItemViewPromises extends React.Component {
 
@@ -32,8 +32,9 @@ class ItemViewPromises extends React.Component {
     this.state = {
       dataSource: null
     };
+    var promise = this.props.navigator.getCurrentRoutes()[1].passProps.data
 
-    this.itemRef = firebase.database().ref().child('promises/1')
+    this.itemRef = firebase.database().ref().child('promises/2')
   }
 
   componentWillMount() {

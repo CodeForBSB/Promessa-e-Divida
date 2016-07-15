@@ -24,7 +24,7 @@ export default new class Routes {
       return {
         title: 'Promessas 1 do GDF',
         component: require('../Containers/ItemViewPromises').default,
-        leftButton: 'HAMBURGER'
+        leftButton: 'BACK'
       }
     }
 

@@ -1,0 +1,148 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'react-native-maps',
+1 verbose cli   '--save' ]
+2 info using npm@3.8.9
+3 info using node@v4.4.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData react-native-maps
+8 silly fetchNamedPackageData react-native-maps
+9 silly mapToRegistry name react-native-maps
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'react-native-maps',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   name: 'react-native-maps',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/react-native-maps
+14 verbose request uri https://registry.npmjs.org/react-native-maps
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 10:50:42 PM
+17 verbose request id 7929b60336c3d4ae
+18 verbose etag "DKMFAF3C0HXYJU4DNQRS6UY0"
+19 http request GET https://registry.npmjs.org/react-native-maps
+20 http 200 https://registry.npmjs.org/react-native-maps
+21 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+21 verbose headers   etag: '"B8T0THMV35B6ZTAHD8J4G9OGI"',
+21 verbose headers   'content-type': 'application/json',
+21 verbose headers   'content-encoding': 'gzip',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   'content-length': '7813',
+21 verbose headers   'accept-ranges': 'bytes',
+21 verbose headers   date: 'Fri, 15 Jul 2016 01:50:42 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   age: '0',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-gru7127-GRU',
+21 verbose headers   'x-cache': 'MISS',
+21 verbose headers   'x-cache-hits': '0',
+21 verbose headers   'x-timer': 'S1468547442.417400,VS0,VE150',
+21 verbose headers   vary: 'Accept-Encoding' }
+22 silly get cb [ 200,
+22 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly get     etag: '"B8T0THMV35B6ZTAHD8J4G9OGI"',
+22 silly get     'content-type': 'application/json',
+22 silly get     'content-encoding': 'gzip',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     'content-length': '7813',
+22 silly get     'accept-ranges': 'bytes',
+22 silly get     date: 'Fri, 15 Jul 2016 01:50:42 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     age: '0',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-gru7127-GRU',
+22 silly get     'x-cache': 'MISS',
+22 silly get     'x-cache-hits': '0',
+22 silly get     'x-timer': 'S1468547442.417400,VS0,VE150',
+22 silly get     vary: 'Accept-Encoding' } ]
+23 verbose get saving react-native-maps to /Users/geraugu/.npm/registry.npmjs.org/react-native-maps/.cache.json
+24 verbose correctMkdir /Users/geraugu/.npm correctMkdir not in flight; initializing
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule react-native-maps@0.7.1 checking installable status
+38 silly cache add args [ 'react-native-maps', null ]
+39 verbose cache add spec react-native-maps
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'react-native-maps',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'react-native-maps',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed react-native-maps@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for react-native-maps
+43 info addNameTag [ 'react-native-maps', 'latest' ]
+44 silly mapToRegistry name react-native-maps
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'react-native-maps',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   name: 'react-native-maps',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/react-native-maps
+49 verbose addNameTag registry:https://registry.npmjs.org/react-native-maps not in flight; fetching
+50 verbose get https://registry.npmjs.org/react-native-maps not expired, no request
+51 silly addNameTag next cb for react-native-maps with tag latest
+52 silly addNamed react-native-maps@0.7.1
+53 verbose addNamed "0.7.1" is a plain semver version for react-native-maps
+54 silly mapToRegistry name react-native-maps
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npmjs.org/
+57 silly mapToRegistry data Result {
+57 silly mapToRegistry   raw: 'react-native-maps',
+57 silly mapToRegistry   scope: null,
+57 silly mapToRegistry   name: 'react-native-maps',
+57 silly mapToRegistry   rawSpec: '',
+57 silly mapToRegistry   spec: 'latest',
+57 silly mapToRegistry   type: 'tag' }
+58 silly mapToRegistry uri https://registry.npmjs.org/react-native-maps
+59 verbose addRemoteTarball https://registry.npmjs.org/react-native-maps/-/react-native-maps-0.7.1.tgz not in flight; adding
+60 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-native-maps/-/react-native-maps-0.7.1.tgz',
+60 verbose addRemoteTarball   'eeabc7c74939fc9ee925bb50dc006fec34c3c597' ]
+61 info retry fetch attempt 1 at 10:50:42 PM
+62 info attempt registry request try #1 at 10:50:42 PM
+63 http fetch GET https://registry.npmjs.org/react-native-maps/-/react-native-maps-0.7.1.tgz
+64 http fetch 200 https://registry.npmjs.org/react-native-maps/-/react-native-maps-0.7.1.tgz
+65 silly fetchAndShaCheck shasum eeabc7c74939fc9ee925bb50dc006fec34c3c597
+66 verbose addTmpTarball /var/folders/zy/pp8gvx091dz0f1p61fd6zs3m0000gp/T/npm-4238-d99d79bc/registry.npmjs.org/react-native-maps/-/react-native-maps-0.7.1.tgz not in flight; adding
+67 verbose addTmpTarball already have metadata; skipping unpack for react-native-maps@0.7.1
+68 verbose correctMkdir /Users/geraugu/.npm correctMkdir not in flight; initializing
+69 silly rollbackFailedOptional Starting
+70 silly rollbackFailedOptional Finishing
+71 silly runTopLevelLifecycles Starting
+72 silly runTopLevelLifecycles Finishing
+73 silly install printInstalled
+74 verbose stack Error: ENOSPC: no space left on device, write
+74 verbose stack     at Error (native)
+75 verbose cwd /Volumes/SAMSUNG/Projetos/hackathon/Time4Hackathon
+76 error Darwin 15.5.0
+77 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "react-native-maps" "--save"
+78 error node v4.4.3
+79 error npm  v3.8.9
+80 error code ENOSPC
+81 error errno -28
+82 error syscall write
+83 error nospc ENOSPC: no space left on device, write
+84 error nospc This is most likely not a problem with npm itself
+84 error nospc and is related to insufficient space on your system.
+85 verbose exit [ -28, true ]
