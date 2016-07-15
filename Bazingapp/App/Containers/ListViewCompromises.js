@@ -20,6 +20,8 @@ import styles from './Styles/ListviewCompromisesStyle'
 
 const firebase = require('firebase');
 
+var Spinner = require('react-native-spinkit');
+
 // Initialize Firebase
 const firebaseConfig = {
   apiKey: "3knN0HE2Y4YG0gVHXfl55vqBzIyRe7GymrjIKS5i",
@@ -174,9 +176,16 @@ class ListViewCompromises extends React.Component {
   }
 
   render () {
+    if (this._noRowData()) {
+      return (
+        <View style={styles.spinnerContainer}>
+          <Spinner style={styles.spinner} isVisible={this.state.isVisible}
+              size={320} type={'WanderingCubes'} color={Colors.blueDark}/>
+        </View>
+      )
+    }
     return (
       <View style={styles.container}>
-        <AlertMessage title='Nothing to See Here, Move Along' show={this._noRowData()} />
         <ListView
           style={styles.listView}
           dataSource={this.state.dataSource}

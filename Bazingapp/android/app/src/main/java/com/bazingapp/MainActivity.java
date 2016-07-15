@@ -1,6 +1,7 @@
 package com.bazingapp;
 
 import com.facebook.react.ReactActivity;
+import com.react.rnspinkit.RNSpinkitPackage;
 import com.airbnb.android.react.maps.MapsPackage;
 import com.imagepicker.ImagePickerPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
@@ -22,6 +23,7 @@ public class MainActivity extends ReactActivity {
     protected List<ReactPackage> getPackages() {
         return Arrays.<ReactPackage>asList(
             new MainReactPackage(),
+            new RNSpinkitPackage(),
             new MapsPackage(),
             new ImagePickerPackage(),
             new ImagePickerPackage() // Add package
