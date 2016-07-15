@@ -5,6 +5,7 @@ const images = {
   ignite: require('../Images/ignite_logo.png'),
   tile_bg: require('../Images/tile_bg.png'),
   login_bg: require('../Images/login_bg.png'),
+  photo_camera: require('../Images/photo_camera.png'),
   background: require('../Images/BG.png')
 }
 
