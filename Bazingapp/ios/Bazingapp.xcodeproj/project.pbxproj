@@ -239,11 +239,17 @@
 				1C0652438FEF4D86BA030B52 /* libRNDeviceInfo.a in Frameworks */,
 				4FECB0586EBD4121BFEA79EA /* libRNI18n.a in Frameworks */,
 				604D1730FACA4BB780D8CEFF /* libRNVectorIcons.a in Frameworks */,
+<<<<<<< Updated upstream
 				AD7DA4B91D386E63008CD04C /* libRNImagePicker.a in Frameworks */,
+<<<<<<< Updated upstream
+=======
 				E11DA9248C7F42639C41D05E /* libAirMaps.a in Frameworks */,
-                92AF2E67F9F940AB93799764 /* libRNShare.a in Frameworks */,
-                C916CED8E17649C994EE362C /* libRNSpinkit.a in Frameworks */,
-            );
+				92AF2E67F9F940AB93799764 /* libRNShare.a in Frameworks */,
+>>>>>>> Stashed changes
+=======
+				C916CED8E17649C994EE362C /* libRNSpinkit.a in Frameworks */,
+>>>>>>> Stashed changes
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
@@ -384,9 +390,12 @@
 				0B3428CB2FDA406B9868756C /* RNDeviceInfo.xcodeproj */,
 				B3BB3D63473C408D85F5F42B /* RNI18n.xcodeproj */,
 				DAAE18FEEF31443484AAE78F /* RNVectorIcons.xcodeproj */,
+<<<<<<< Updated upstream
 				3B775C1A15164C3CA2B5241E /* AirMaps.xcodeproj */,
 				46E85F90868B4DC98F5E4175 /* RNShare.xcodeproj */,
+=======
 				99A764016D7E409EAA049A95 /* RNSpinkit.xcodeproj */,
+>>>>>>> Stashed changes
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -589,10 +598,13 @@
 					ProjectRef = B3BB3D63473C408D85F5F42B /* RNI18n.xcodeproj */;
 				},
 				{
+<<<<<<< Updated upstream
 					ProductGroup = AD7DA4A61D386DF4008CD04C /* Products */;
 					ProjectRef = AD7DA4A51D386DF4008CD04C /* RNImagePicker.xcodeproj */;
+=======
 					ProductGroup = 8A1ED0981D3928090057E8FE /* Products */;
 					ProjectRef = 46E85F90868B4DC98F5E4175 /* RNShare.xcodeproj */;
+>>>>>>> Stashed changes
 				},
 				{
 					ProductGroup = AD3BB4671D37E0B000EFDBAF /* Products */;
@@ -831,7 +843,10 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+<<<<<<< Updated upstream
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+=======
+>>>>>>> Stashed changes
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bazingapp.app/Bazingapp";
@@ -852,7 +867,10 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+<<<<<<< Updated upstream
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+=======
+>>>>>>> Stashed changes
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bazingapp.app/Bazingapp";
@@ -871,9 +889,12 @@
 					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
 					"$(SRCROOT)/../node_modules/react-native-i18n/RNI18n",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+<<<<<<< Updated upstream
 					"$(SRCROOT)/../node_modules/react-native-maps/ios/AirMaps/**",
 					"$(SRCROOT)/../node_modules/react-native-share/ios",
+=======
 					"$(SRCROOT)/../node_modules/react-native-spinkit/ios/**",
+>>>>>>> Stashed changes
 				);
 				INFOPLIST_FILE = Bazingapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -896,9 +917,12 @@
 					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
 					"$(SRCROOT)/../node_modules/react-native-i18n/RNI18n",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+<<<<<<< Updated upstream
 					"$(SRCROOT)/../node_modules/react-native-maps/ios/AirMaps/**",
 					"$(SRCROOT)/../node_modules/react-native-share/ios",
+=======
 					"$(SRCROOT)/../node_modules/react-native-spinkit/ios/**",
+>>>>>>> Stashed changes
 				);
 				INFOPLIST_FILE = Bazingapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -951,9 +975,12 @@
 					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
 					"$(SRCROOT)/../node_modules/react-native-i18n/RNI18n",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+<<<<<<< Updated upstream
 					"$(SRCROOT)/../node_modules/react-native-maps/ios/AirMaps/**",
 					"$(SRCROOT)/../node_modules/react-native-share/ios",
+=======
 					"$(SRCROOT)/../node_modules/react-native-spinkit/ios/**",
+>>>>>>> Stashed changes
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -997,9 +1024,12 @@
 					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
 					"$(SRCROOT)/../node_modules/react-native-i18n/RNI18n",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+<<<<<<< Updated upstream
 					"$(SRCROOT)/../node_modules/react-native-maps/ios/AirMaps/**",
 					"$(SRCROOT)/../node_modules/react-native-share/ios",
+=======
 					"$(SRCROOT)/../node_modules/react-native-spinkit/ios/**",
+>>>>>>> Stashed changes
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
