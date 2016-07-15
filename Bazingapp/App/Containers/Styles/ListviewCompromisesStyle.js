@@ -9,11 +9,6 @@ export default StyleSheet.create({
   listView: {
     flex:1
   },
-  iconshare: {
-    flex:1,
-    alignSelf: 'flex-end',
-    margin: 6
-  },
   itemView: {
     margin: 10,
     padding: 4,

@@ -32,7 +32,7 @@ class DetailCompromise extends React.Component {
 
 
   render () {
-    var compromise = this.props.navigator.getCurrentRoutes()[1].passProps.data
+    var compromise = this.props.navigator.getCurrentRoutes()[1].passProps
 
     return (
       <View  style={styles.tabs}>

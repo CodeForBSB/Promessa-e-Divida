@@ -4,8 +4,6 @@ import { Images, Colors } from '../Themes'
 import { connect } from 'react-redux'
 import ScrollableTabView from 'react-native-scrollable-tab-view';
 import ListViewCompromises from './ListViewCompromises'
-import MapviewExample from './MapviewExample'
-import CategoriasView from './CategoriasView'
 
 import Routes from '../Navigation/Routes'
 
@@ -43,21 +41,18 @@ class TabScreen extends React.Component {
 
   render () {
     return (
+      <View  style={styles.tabs}>
 
-      <ScrollableTabView style={styles.tabs}
+      <ScrollableTabView
         tabBarBackgroundColor={Colors.green1}
         tabBarUnderlineColor={Colors.blueDark}
         tabBarActiveTextColor={Colors.blueDark}
         tabBarInactiveTextColor= "white">
           <ListViewCompromises tabLabel="Destaque"  navigator={this.props.navigator} onPushRoute={this.handlePushRoute}/>
-<<<<<<< Updated upstream
           <ListViewCompromises tabLabel="Categorias" onPushRoute={this.handlePushRoute}/>
           <ListViewCompromises tabLabel="Perto de mim" onPushRoute={this.handlePushRoute}/>
-=======
-          <CategoriasView tabLabel="Categorias" navigator={this.props.navigator} />
-          <MapviewExample tabLabel="Perto de mim" />
->>>>>>> Stashed changes
       </ScrollableTabView>
+      </View>
     )
   }
 }
