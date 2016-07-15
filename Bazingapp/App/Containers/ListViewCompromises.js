@@ -97,7 +97,7 @@ class ListViewCompromises extends React.Component {
         }}   >
           <View style={styles.itemView}>
 
-              <Text style={styles.itemText}>{rowData.categoria}</Text>
+              <Text style={styles.itemText}>{rowData.category}</Text>
               <Text style={styles.itemText}>{rowData.project}</Text>
               <Text style={styles.itemText}>{rowData.type}</Text>
               <Text style={styles.itemText}>Meta</Text>
