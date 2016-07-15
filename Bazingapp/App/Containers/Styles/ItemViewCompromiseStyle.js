@@ -6,10 +6,10 @@ export default StyleSheet.create({
   itemView: {
     marginTop: Metrics.navBarHeight,
     flex:1,
-    padding: 4,
     backgroundColor: '#EDF7F2',
   },
   title: {
+    flex: 1,
     color: '#4BB5C1',
     fontSize: 20,
     marginTop: 15,
