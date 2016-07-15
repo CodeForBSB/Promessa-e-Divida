@@ -14,8 +14,23 @@ export default new class Routes {
 
     get ListViewCompromises () {
       return {
-        title: 'Compromissos - GDF',
+        title: 'Promessas do GDF',
         component: require('../Containers/ListViewCompromises').default,
+        leftButton: 'HAMBURGER'
+      }
+    }
+    get ItemViewPromises () {
+      return {
+        title: 'Promessas 1 do GDF',
+        component: require('../Containers/ItemViewPromises').default,
+        leftButton: 'HAMBURGER'
+      }
+    }
+
+    get TabsScreen () {
+      return {
+        title: 'Explorar',
+        component: require('../Containers/TabsScreen').default,
         leftButton: 'HAMBURGER'
       }
     }

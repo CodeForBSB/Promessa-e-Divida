@@ -77,14 +77,9 @@ class ListViewCompromises extends React.Component {
     this.listenForItems(this.itemsRef);
   }
 
-  static propTypes = {
-    navigator: PropTypes.object.isRequired
-  }
 
   componentWillMount () {
-    this.props.navigator.state.tapHamburger = () => {
-      this.props.navigator.drawer.toggle()
-    }
+
   }
 
   /* ***********************************************************
@@ -101,24 +96,16 @@ class ListViewCompromises extends React.Component {
           //this._pressRow(rowData._id);
           }}>
           <View style={styles.itemView}>
+              <Text style={styles.itemText}>{rowData.categoria}</Text>
               <Text style={styles.itemText}>{rowData.project}</Text>
               <Text style={styles.itemText}>{rowData.type}</Text>
-              <Text style={styles.itemText}>Metas</Text>
-              {rowData.compromises.map(function(compromise, i){
-                return <View key={i}>
-                      <Text >Responsável: {compromise.responsible}</Text>
-                      {compromise.goals.map(function(goal, i){
-                        return <View key={i}>
-                                  <Text >
-                                    Meta: {goal.goal}
-                                  </Text>
-                                  <Text >
-                                    Prazo: {goal.deadline}
-                                  </Text>
-                                </View>;
-                      })}
-                    </View>;
-                })}
+              <Text style={styles.itemText}>Meta</Text>
+              <Text style={styles.itemText}>{rowData.goal}</Text>
+              <Text style={styles.itemText}>Prazo</Text>
+              <Text style={styles.itemText}>{rowData.deadline}</Text>
+              <Text style={styles.itemText}>Responsável</Text>
+              <Text style={styles.itemText}>{rowData.responsible}</Text>
+
           </View>
         </TouchableHighlight>;
   }

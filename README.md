@@ -1,6 +1,7 @@
 # Projeto Hackathon Cotidiano - Bazinga Team
 
 09/07 - 15/07/2016
+React Native App
 
 ![ScreenShot](assets/logo.png)
 
@@ -17,21 +18,23 @@ executados pelo governo aproximando também o cidadão da fiscalização dos gas
 
 ![ScreenShot](assets/01-Diagrama1.png)
 
-- Plataforma para avaliar promessas / metas do governo pelo cidadão
-- Inicialmente focado em Infra-estrutura (como obras, reformas) em andamento
+- Plataforma para **avaliar promessas / metas do governo pelo cidadão**
+- Inicialmente focado em **Infra-estrutura** (como obras, reformas) em andamento
 - Classificação por meio de expectativa / impressão, um "perfil" da promessa que conterá fotos e avaliações de seu processo
 
 ### Protótipo / Mockup 12/07:
 
 ![ScreenShot](assets/telas-prototipo.png)
 
-1. Tela Login
-2. Tela Inicial Explorar - Apresenta metas estabelecidas pelo governo. Abas para filtragem:
+1. **Tela Login**
+2. **Tela Inicial Explorar:** Apresenta metas estabelecidas pelo governo. Abas para filtragem:
   * 'Destaque', 'Categoria' e 'Perto de Mim'
-3. Tela Avaliar - Apresenta perfil da meta estabelecida pelo governo, com fotos e avaliações do cidadão - possibilita contactar responsável
-4. Tela Minha Fiscalização - Apresenta perfil do usuário cidadão, com medalhas e conquistas dentro da pontuação do aplicativo
-5. Aba Lateral
-6. Tela Contactar Responsável - Apresenta dados dos principais responsáveis pela meta estabelecida
+3. **Tela Avaliar:** Apresenta perfil da meta estabelecida pelo governo, com fotos e avaliações do cidadão - possibilita contactar responsável
+4. **Tela Minha Fiscalização:** Apresenta perfil do usuário cidadão, com medalhas e conquistas dentro da pontuação do aplicativo
+5. **Aba Lateral**
+6. **Tela Contactar Responsável:** Apresenta dados dos principais responsáveis pela meta estabelecida
+7. **Tela Perto de Mim:** Apresenta pontos de metas mapeados mais geograficamente próximos do usuário
+8. **Alerta de proximidade:** Caso o usuário transite perto de um ponto mapeado ele será alertado. O usuário que informar a situação da meta receberá pontos por isso.
 
 ===========
 

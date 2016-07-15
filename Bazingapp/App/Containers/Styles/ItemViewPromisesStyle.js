@@ -3,16 +3,20 @@ import { ApplicationStyles, Metrics, Colors } from '../../Themes/'
 
 export default StyleSheet.create({
   ...ApplicationStyles.screen,
-  container: {
-    flex: 1,
-  },
-  listView: {
-    flex:1
-  },
   itemView: {
-    margin: 10,
+    marginTop: Metrics.navBarHeight,
+    flex:1,
     padding: 4,
-    backgroundColor: Colors.blueDark
+    backgroundColor: '#EDF7F2',
+  },
+  title: {
+    color: '#4BB5C1',
+    fontSize: 20,
+    marginTop: 15,
+    marginBottom: 15,
+    paddingLeft: 10,
+    paddingRight: 10,
+    textAlign: 'center'
   },
   itemText: {
     ...ApplicationStyles.screen.sectionText
