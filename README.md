@@ -45,5 +45,6 @@ executados pelo governo aproximando também o cidadão da fiscalização dos gas
 - [Compromissos dos órgãos do GDF para 2016](http://brasilia.osbrasil.org.br/blog/2016/04/02/veja-os-compromissos-dos-orgaos-do-gdf-para-2016/)
 - [React Native](https://facebook.github.io/react-native/docs)
 - [react-native-image-picker](https://github.com/marcshilling/react-native-image-picker)
+- [react-native-spinkit](https://github.com/maxs15/react-native-spinkit)
 
 ===========
