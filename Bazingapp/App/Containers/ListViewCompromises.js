@@ -10,12 +10,7 @@ import Icon from 'react-native-vector-icons/FontAwesome'
 // For empty lists
 import AlertMessage from '../Components/AlertMessageComponent'
 
-<<<<<<< Updated upstream
 import Share from 'react-native-share'
-
-=======
-import Colors from '../Themes/Colors'
->>>>>>> Stashed changes
 
 //import jsonfile from 'jsonfile'
 
