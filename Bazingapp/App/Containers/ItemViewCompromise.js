@@ -13,17 +13,6 @@ import AlertMessage from '../Components/AlertMessageComponent'
 // Styles
 import styles from './Styles/ItemViewPromisesStyle'
 
-const firebase = require('firebase');
-
-// Initialize Firebase
-const firebaseConfig = {
-  apiKey: "3knN0HE2Y4YG0gVHXfl55vqBzIyRe7GymrjIKS5i",
-  authDomain: "promessa-e-divida.firebaseapp.com",
-  databaseURL: "https://promessa-e-divida.firebaseio.com",
-  storageBucket: "",
-};
-firebase.initializeApp(firebaseConfig);
-
 class ItemViewPromises extends React.Component {
 
   constructor (props) {
