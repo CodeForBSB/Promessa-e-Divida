@@ -20,6 +20,14 @@ export default new class Routes {
       }
     }
 
+    get DetailCompromise () {
+      return {
+        title: 'Detalhe',
+        component: require('../Containers/DetailCompromise').default,
+        leftButton: 'BACK'
+      }
+    }
+
     get TabsScreen () {
       return {
         title: 'Explorar',

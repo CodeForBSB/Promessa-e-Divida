@@ -3,6 +3,7 @@ import { AppRegistry, View, Text, ListView, TouchableHighlight } from 'react-nat
 import { Images } from '../Themes'
 import { connect } from 'react-redux'
 import Routes from '../Navigation/Routes'
+import RoundedButton from '../Components/RoundedButton'
 
 // For empty lists
 import AlertMessage from '../Components/AlertMessageComponent'
@@ -28,8 +29,7 @@ class ListViewCompromises extends React.Component {
 
   constructor (props) {
     super(props)
-
-
+    this.callThisFunction = this.callThisFunction.bind(this)
     /* ***********************************************************
     * STEP 1
     * This is an array of objects with the properties you desire
@@ -92,10 +92,11 @@ class ListViewCompromises extends React.Component {
   *************************************************************/
   _renderRow (rowData) {
 
-    return <TouchableHighlight onPress={() => {
-          //this._pressRow(rowData._id);
-          }}>
+    return <TouchableHighlight  onPress={() => {
+          this.callThisFunction(rowData);
+        }}   >
           <View style={styles.itemView}>
+
               <Text style={styles.itemText}>{rowData.categoria}</Text>
               <Text style={styles.itemText}>{rowData.project}</Text>
               <Text style={styles.itemText}>{rowData.type}</Text>
@@ -108,6 +109,17 @@ class ListViewCompromises extends React.Component {
 
           </View>
         </TouchableHighlight>;
+  }
+
+  callThisFunction(rowData) {
+    const row = {
+      passProps: {
+        data: rowData
+      }
+    }
+    const temp = Object.assign({}, Routes.DetailCompromise, row);
+    this.props.navigator.push(temp,rowData)
+
   }
 
   /* ***********************************************************
@@ -136,6 +148,7 @@ class ListViewCompromises extends React.Component {
 
   _pressRow (rowID: number) {
     //TODO: detail compromisse
+    console.log(this)
   }
 
   render () {
@@ -145,11 +158,15 @@ class ListViewCompromises extends React.Component {
         <ListView
           style={styles.listView}
           dataSource={this.state.dataSource}
-          renderRow={this._renderRow}
+          renderRow={this._renderRow.bind(this)}
         />
       </View>
     )
   }
+}
+
+ListViewCompromises.propTypes = {
+  navigator: PropTypes.object.isRequired
 }
 
 const mapStateToProps = (state) => {
