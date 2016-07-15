@@ -19,6 +19,7 @@ export default new class Routes {
         leftButton: 'HAMBURGER'
       }
     }
+    
     get ItemViewPromises () {
       return {
         title: 'Promessas 1 do GDF',

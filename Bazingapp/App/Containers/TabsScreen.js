@@ -48,9 +48,9 @@ class TabScreen extends React.Component {
         tabBarUnderlineColor={Colors.blueDark}
         tabBarActiveTextColor={Colors.blueDark}
         tabBarInactiveTextColor= "white">
-         <ListViewCompromises tabLabel="Destaque"  navigator={this.props.navigator} onPushRoute={this.handlePushRoute}/>
+          <ListViewCompromises tabLabel="Destaque"  navigator={this.props.navigator} onPushRoute={this.handlePushRoute}/>
           <ListViewCompromises tabLabel="Categorias" onPushRoute={this.handlePushRoute}/>
-           <ListViewCompromises tabLabel="Perto de mim" onPushRoute={this.handlePushRoute}/>
+          <ListViewCompromises tabLabel="Perto de mim" onPushRoute={this.handlePushRoute}/>
       </ScrollableTabView>
       </View>
     )
