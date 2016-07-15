@@ -61,4 +61,13 @@ export default new class Routes {
     }
   }
 
+  get LoadImage () {
+    return {
+      title: 'Load Image',
+      component: require('../Containers/LoadImage').default,
+      customConfiguration: Transitions.modal,
+      leftButton: 'BACK'
+    }
+  }
+
 }
