@@ -19,7 +19,7 @@ export default new class Routes {
         leftButton: 'HAMBURGER'
       }
     }
-
+    
     get ItemViewPromises () {
       return {
         title: 'Promessas 1 do GDF',
@@ -58,7 +58,7 @@ export default new class Routes {
       component: require('../Containers/LoginScreen').default,
       customConfiguration: Transitions.modal,
       rightButton: 'FORGOT_PASSWORD',
-      leftButton: 'HAMBURGER'
+      leftButton: 'BACK'
     }
   }
 

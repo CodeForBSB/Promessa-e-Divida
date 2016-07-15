@@ -126,13 +126,9 @@ android {
 }
 
 dependencies {
-<<<<<<< Updated upstream
     compile project(':react-native-share')
     //compile project(':react-native-maps')
     compile "com.airbnb.android:react-native-maps:0.6.0"
-=======
-    compile project(':react-native-spinkit')
->>>>>>> Stashed changes
     compile project(':react-native-vector-icons')
     compile project(':react-native-i18n')
     compile project(':react-native-device-info')

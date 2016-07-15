@@ -10,21 +10,15 @@ import Icon from 'react-native-vector-icons/FontAwesome'
 // For empty lists
 import AlertMessage from '../Components/AlertMessageComponent'
 
-<<<<<<< Updated upstream
 import Share from 'react-native-share'
 
-=======
-import Colors from '../Themes/Colors'
->>>>>>> Stashed changes
 
 //import jsonfile from 'jsonfile'
 
 // Styles
-import styles from './Styles/ListViewCompromisesStyle'
+import styles from './Styles/ListviewCompromisesStyle'
 
 const firebase = require('firebase');
-
-var Spinner = require('react-native-spinkit');
 
 // Initialize Firebase
 const firebaseConfig = {
@@ -180,23 +174,14 @@ class ListViewCompromises extends React.Component {
   }
 
   render () {
-    if (this._noRowData()) {
-      return (
-        <View style={styles.spinnerContainer}>
-          <Spinner style={styles.spinner} isVisible={this.state.isVisible}
-              size={320} type={'WanderingCubes'} color={Colors.blueDark}/>
-        </View>
-      )
-    }
     return (
       <View style={styles.container}>
-
+        <AlertMessage title='Nothing to See Here, Move Along' show={this._noRowData()} />
         <ListView
           style={styles.listView}
           dataSource={this.state.dataSource}
           renderRow={this._renderRow.bind(this)}
         />
-
       </View>
     )
   }

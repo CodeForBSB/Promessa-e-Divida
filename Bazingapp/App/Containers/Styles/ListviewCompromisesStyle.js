@@ -3,15 +3,6 @@ import { ApplicationStyles, Metrics, Colors } from '../../Themes/'
 
 export default StyleSheet.create({
   ...ApplicationStyles.screen,
-  spinnerContainer: {
-    flex: 1,
-    alignItems: 'center'
-  },
-  spinner: {
-    marginTop: 30,
-    left: 0,
-    marginBottom: 80
-  },
   container: {
     flex: 1,
   },
