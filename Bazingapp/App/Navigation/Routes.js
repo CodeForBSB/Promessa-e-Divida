@@ -19,10 +19,11 @@ export default new class Routes {
         leftButton: 'HAMBURGER'
       }
     }
-    get ItemViewCompromise () {
+    
+    get ItemViewPromises () {
       return {
         title: 'Promessas 1 do GDF',
-        component: require('../Containers/ItemViewCompromise').default,
+        component: require('../Containers/ItemViewPromises').default,
         leftButton: 'HAMBURGER'
       }
     }

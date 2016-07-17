@@ -6,7 +6,10 @@ const images = {
   tile_bg: require('../Images/tile_bg.png'),
   login_bg: require('../Images/login_bg.png'),
   photo_camera: require('../Images/photo_camera.png'),
-  background: require('../Images/BG.png')
+  background: require('../Images/BG.png'),
+  img1: require('../Images/03-profile1.jpg'),
+  img2: require('../Images/03-profile2.jpg'),
+  img3: require('../Images/03-profile3.jpg')
 }
 
 export default images

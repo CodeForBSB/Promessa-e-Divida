@@ -20,8 +20,8 @@ class DrawerContent extends React.Component {
       <ScrollView style={styles.container}>
         <Image source={Images.logo} style={styles.logo} />
         <DrawerButton text='Explorar' onPress={this.handlePressComponent} />
-        <DrawerButton text='Minha Fiscalização' onPress={this.handlePressComponent} />
-        <DrawerButton text='Apadrinhados' onPress={this.handlePressComponent} />
+        <DrawerButton text='Meu Perfil' onPress={this.handlePressComponent} />
+        <DrawerButton text='Meus Fiscalizados' onPress={this.handlePressComponent} />
         <View style={styles.divider} />
         <DrawerButton text='Configurações' onPress={this.handlePressComponent} />
         <DrawerButton text='Ajuda' onPress={this.handlePressComponent} />

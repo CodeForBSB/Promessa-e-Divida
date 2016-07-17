@@ -58,20 +58,20 @@ class DetailCompromise extends React.Component {
         <ScrollView style={{flex: 2, padding: 5}}>
           <Text style={styles.title}>{compromise.data.project}</Text>
           <Image
-            source={{uri: compromise.data.imagePath}}
+            source={Images.img3}
             style={{width: 400, height: 225}}
           />
           <View style={{flex: 1, flexDirection: 'row', justifyContent: 'space-between', paddingVertical: 10}}>
             <Image
-              source={{uri: compromise.data.imagePath}}
+              source={Images.img1}
               style={{width: 130, height: 74}}
             />
             <Image
-              source={{uri: compromise.data.imagePath}}
+              source={Images.img2}
               style={{width: 130, height: 74}}
             />
             <Image
-              source={{uri: compromise.data.imagePath}}
+              source={Images.img3}
               style={{width: 130, height: 74}}
             />
           </View>

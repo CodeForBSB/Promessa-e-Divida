@@ -1,16 +1,12 @@
 import React, {PropTypes} from 'react'
-import { AppRegistry,
-  Component, View, Text, ListView, TouchableHighlight } from 'react-native'
+import { AppRegistry, View, Text, ListView, TouchableHighlight } from 'react-native'
 import { Images, Metrics, Colors } from '../Themes'
 import { connect } from 'react-redux'
 import Routes from '../Navigation/Routes'
 import RoundedButton from '../Components/RoundedButton'
-import Icon from 'react-native-vector-icons/FontAwesome'
 
 // For empty lists
 import AlertMessage from '../Components/AlertMessageComponent'
-
-import Share from 'react-native-share'
 
 
 //import jsonfile from 'jsonfile'
@@ -20,8 +16,6 @@ import styles from './Styles/ListviewCompromisesStyle'
 
 const firebase = require('firebase');
 
-var Spinner = require('react-native-spinkit');
-
 // Initialize Firebase
 const firebaseConfig = {
   apiKey: "3knN0HE2Y4YG0gVHXfl55vqBzIyRe7GymrjIKS5i",
@@ -30,6 +24,8 @@ const firebaseConfig = {
   storageBucket: "",
 };
 firebase.initializeApp(firebaseConfig);
+
+var Spinner = require('react-native-spinkit');
 
 class ListViewCompromises extends React.Component {
 
@@ -88,16 +84,6 @@ class ListViewCompromises extends React.Component {
 
   }
 
-  callShare(data) {
-    Share.open({
-      share_text: data.project + " #pedbsb",
-      share_URL: "http://google.cl",
-      title: data.goal
-    },(e) => {
-      console.log(e);
-    });
-  }
-
   /* ***********************************************************
   * STEP 3
   * `_renderRow` function -How each cell/row should be rendered
@@ -112,15 +98,7 @@ class ListViewCompromises extends React.Component {
           this.callThisFunction(rowData);
         }}   >
           <View style={styles.itemView}>
-          <TouchableHighlight onPress={() => {
-                this.callShare(rowData);
-              }}>
-              <Icon name='share-alt'
-              size={Metrics.icons.medium}
-              color={Colors.snow}
-              style={styles.iconshare}
-              />
-          </TouchableHighlight>
+
               <Text style={styles.itemText}>{rowData.category}</Text>
               <Text style={styles.itemText}>{rowData.project}</Text>
               <Text style={styles.itemText}>{rowData.type}</Text>
@@ -141,7 +119,7 @@ class ListViewCompromises extends React.Component {
         data: rowData
       }
     }
-    const temp = Object.assign({}, Routes.ItemViewPromises, row);
+    const temp = Object.assign({}, Routes.DetailCompromise, row);
     this.props.navigator.push(temp,rowData)
 
   }
@@ -184,6 +162,7 @@ class ListViewCompromises extends React.Component {
         </View>
       )
     }
+
     return (
       <View style={styles.container}>
         <ListView

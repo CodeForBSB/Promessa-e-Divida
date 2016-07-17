@@ -12,7 +12,6 @@ export default StyleSheet.create({
     left: 0,
     marginBottom: 80
   },
-
   container: {
     flex: 1,
   },
