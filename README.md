@@ -1,4 +1,4 @@
-# Projeto Hackathon Cotidiano - Bazinga Team
+# Projeto Hackathon Cotidiano
 
 09/07 - 15/07/2016
 React Native App
